@@ -13,8 +13,9 @@ async function connectToDb() {
     db.TaiKhoan = database.collection("TaiKhoan");
     db.VatTu = database.collection("VatTu");
     db.TinNhan = database.collection("TinNhan");
-    db.HoaDon = database.collection("HoaDon");
+    db.HoaDon = database.collection("HoaDonBanHang");
     return 'done.';
+    
 }
 
 module.exports = { connectToDb, db }
